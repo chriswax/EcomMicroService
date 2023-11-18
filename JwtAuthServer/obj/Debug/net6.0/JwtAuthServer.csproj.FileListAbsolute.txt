@@ -1,0 +1,12 @@
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\bin\Debug\net6.0\JwtAuthServer.deps.json
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\bin\Debug\net6.0\JwtAuthServer.dll
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\bin\Debug\net6.0\JwtAuthServer.pdb
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\JwtAuthServer.csproj.AssemblyReference.cache
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\JwtAuthServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\JwtAuthServer.AssemblyInfoInputs.cache
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\JwtAuthServer.AssemblyInfo.cs
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\JwtAuthServer.csproj.CoreCompileInputs.cache
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\JwtAuthServer.dll
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\refint\JwtAuthServer.dll
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\JwtAuthServer.pdb
+C:\Users\chris\Documents\Citechs\Stanley Class\Practicals\EcomMicroservices\JwtAuthServer\obj\Debug\net6.0\ref\JwtAuthServer.dll
