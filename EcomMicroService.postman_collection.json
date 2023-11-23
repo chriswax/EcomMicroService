@@ -1,0 +1,431 @@
+{
+	"info": {
+		"_postman_id": "6f78c1e6-9028-462f-947a-e43586e542c3",
+		"name": "EcomMicroService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24151545"
+	},
+	"item": [
+		{
+			"name": "CustomerWebApi",
+			"item": [
+				{
+					"name": "GetAllCustomer",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJyb2xlIjoiQWRtaW5pc3RyYXRvciIsIm5iZiI6MTcwMDMxMTg2OCwiZXhwIjoxNzAwMzEzMDY4LCJpYXQiOjE3MDAzMTE4Njh9.rcVX2i8IssqeOWIhpfgLpBqp_vMVDMjmYuqL7L9ed5o",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:48189/api/Customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "48189",
+							"path": [
+								"api",
+								"Customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateCustomer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CustomerName\":\"Okeke Kosi\",\r\n    \"MobileNumber\":\"080393630393\",\r\n    \"Email\":\"kosi@gmail.com\"\r\n} \r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/Customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"Customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCustomerById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/Customer/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"Customer",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Customer",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CustomerId\":2,\r\n    \"CustomerName\":\"Okafor Josephine\",\r\n    \"MobileNumber\":\"07043663773\",\r\n    \"Email\":\"okafor@gmail.com\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5170/api/Customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5170",
+							"path": [
+								"api",
+								"Customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5170/api/Customer/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5170",
+							"path": [
+								"api",
+								"Customer",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ProductWebApi",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJyb2xlIjoiQWRtaW5pc3RyYXRvciIsIm5iZiI6MTcwMDMxMzMyMiwiZXhwIjoxNzAwMzE0NTIyLCJpYXQiOjE3MDAzMTMzMjJ9.BDyfSYOtiUmfkzb7IrHrSWc5IAa6nHmXZ5TUkLoLsjM",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:48189/api/Product",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "48189",
+							"path": [
+								"api",
+								"Product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ProductName\":\"IPhone X\",\r\n    \"ProductCode\":\"Phone-45\",\r\n    \"ProductPrice\":208000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:48189/api/Product",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "48189",
+							"path": [
+								"api",
+								"Product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ProductId\":3,\r\n    \"ProductName\":\"LG TV 42\",\r\n    \"ProductCode\":\"LG567\",\r\n    \"ProductPrice\":130000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5263/api/Product",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5263",
+							"path": [
+								"api",
+								"Product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5263/api/Product/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5263",
+							"path": [
+								"api",
+								"Product",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5263/api/Product/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5263",
+							"path": [
+								"api",
+								"Product",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OrderWebApi",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:48189/api/Order",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "48189",
+							"path": [
+								"api",
+								"Order"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5028/api/Order/65578d362607798b2782683b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5028",
+							"path": [
+								"api",
+								"Order",
+								"65578d362607798b2782683b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"OrderId\":\"\",\r\n    \"CustomerId\":1,\r\n    \"OrderedOn\":\"2023-01-01T01:00Z\",\r\n    \"OrderDetails\":[\r\n        {   \r\n            \"ProductId\":1,\r\n            \"Quantity\":33,\r\n            \"UnitPrice\":3300\r\n        },\r\n        {   \r\n            \"ProductId\":5,\r\n            \"Quantity\":88,\r\n            \"UnitPrice\":9900\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:18006/api/Order",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "18006",
+							"path": [
+								"api",
+								"Order"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"OrderId\":\"65578d9a2607798b2782683c\",\r\n    \"CustomerId\":10,\r\n    \"OrderedOn\":\"2023-01-01T01:00Z\",\r\n    \"OrderDetails\":[\r\n        {   \r\n            \"ProductId\":2,\r\n            \"Quantity\":10,\r\n            \"UnitPrice\":900\r\n        },\r\n        {   \r\n            \"ProductId\":5,\r\n            \"Quantity\":40,\r\n            \"UnitPrice\":1800\r\n        }\r\n    ]\r\n    \r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5028/api/Order",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5028",
+							"path": [
+								"api",
+								"Order"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5028/api/Order/65578d362607798b2782683b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5028",
+							"path": [
+								"api",
+								"Order",
+								"65578d362607798b2782683b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AuthWebApi",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Username\":\"admin\",\r\n    \"Password\":\"admin123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:48189/api/Account",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "48189",
+							"path": [
+								"api",
+								"Account"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
